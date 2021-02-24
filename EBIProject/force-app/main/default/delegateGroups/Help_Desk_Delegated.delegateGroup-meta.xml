@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DelegateGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>HR</groups>
+    <groups>IT</groups>
+    <groups>Payroll</groups>
+    <groups>Finance</groups>
+    <groups>Project Credits</groups>
+    <groups>Reports Birthday Anniversary</groups>
+    <groups>Reports RE</groups>
+    <groups>Reports TE</groups>
+    <groups>TEL RTL Managers</groups>
+    <groups>QA Technical Director</groups>
+    <groups>Reports Portfolio</groups>
+    <groups>Recruiting</groups>
+    <groups>Reports_Lost_TaT_RE</groups>
+    <groups>GOV Sales</groups>
+    <groups>RE Sales</groups>
+    <groups>RTL Sales</groups>
+    <groups>TEL Sales</groups>
+    <groups>All EBI Employees</groups>
+    <groups>HR Manager</groups>
+    <groups>CFO</groups>
+    <groups>CHRO</groups>
+    <groups>President Real Estate</groups>
+    <groups>President Telecom &amp; Retail</groups>
+    <groups>Reports RE Trad on Hold</groups>
+    <groups>Helpdesk</groups>
+    <label>Help Desk Delegated</label>
+    <loginAccess>false</loginAccess>
+    <permissionSets>Geopointe Base Permissions</permissionSets>
+    <permissionSets>EBI - Litmos Login Access</permissionSets>
+    <permissionSets>EBI - ClickLink</permissionSets>
+    <permissionSets>EBI - Conga</permissionSets>
+    <permissionSets>EBI - FFA - Billing</permissionSets>
+    <permissionSets>EBI - FFA - Payable Invoice</permissionSets>
+    <permissionSets>EBI - PSA - Create Project</permissionSets>
+    <permissionSets>EBI - PSA - Edit Credits</permissionSets>
+    <permissionSets>EBI - PSA - Expense Entry</permissionSets>
+    <permissionSets>EBI - PSA - Field</permissionSets>
+    <permissionSets>EBI - PSA - Full</permissionSets>
+    <permissionSets>EBI - PSA - Production Edit</permissionSets>
+    <permissionSets>EBI - PSA - Read</permissionSets>
+    <permissionSets>EBI - PSA - Restricted</permissionSets>
+    <permissionSets>EBI - PSA - Timecards</permissionSets>
+    <permissionSets>EBI - SRP</permissionSets>
+    <permissionSets>EBI - PSA - SOW RE Admin</permissionSets>
+    <permissionSets>EBI - PSA - SOW RE Creator</permissionSets>
+    <permissionSets>EBI - PSA - SOW TEL Admin</permissionSets>
+    <permissionSets>EBI - PSA - Admin</permissionSets>
+    <permissionSets>EBI - PSA - SSN/Tax ID Access</permissionSets>
+    <permissionSets>EBI - FFA/PSA Extra Permissions</permissionSets>
+    <permissionSets>EBI - FF Reporting App</permissionSets>
+    <permissionSets>EBI - FFA - Bank Check Ranges</permissionSets>
+    <permissionSets>EBI - PSA - Request Invoices</permissionSets>
+    <permissionSets>EBI - FFA - Collections Extra</permissionSets>
+    <permissionSets>EBI - HCM Payroll</permissionSets>
+    <permissionSets>EBI - CRM - Merge Permission</permissionSets>
+    <permissionSets>EBI - PSA - Edit RPG</permissionSets>
+    <permissionSets>EBI - PSA - Restricted User Additional Permissions</permissionSets>
+    <permissionSets>EBI - PSA - Edit Splits</permissionSets>
+    <permissionSets>EBI - PSA - Admin Edit Time</permissionSets>
+    <permissionSets>EBI - PSA - Admin Edit Expense</permissionSets>
+    <permissionSets>Accounting - Action Views</permissionSets>
+    <permissionSets>Accounting - Action Views - Run</permissionSets>
+    <permissionSets>Accounting - Aged Analysis Definition</permissionSets>
+    <permissionSets>Accounting - Aged Analysis Definition - Read Access</permissionSets>
+    <permissionSets>Accounting - Aged Analysis Reports</permissionSets>
+    <permissionSets>Accounting - Background Matching</permissionSets>
+    <permissionSets>Accounting - Balance Update</permissionSets>
+    <permissionSets>Accounting - Balance Update - Merge Account</permissionSets>
+    <permissionSets>Accounting - Balance Update - Save</permissionSets>
+    <permissionSets>Accounting - Bank Account</permissionSets>
+    <permissionSets>Accounting - Bank Account - Bank Statement Definition</permissionSets>
+    <permissionSets>Accounting - Bank Account - Read Access</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Commit</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Delete</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Delete Lines</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Delete Lines and Update Header</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Edit</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Read Access</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Reopen</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Save Header</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Save Lines</permissionSets>
+    <permissionSets>Accounting - Bank Reconciliation - Save Lines and Update Headers</permissionSets>
+    <permissionSets>Accounting - Bank Statement</permissionSets>
+    <permissionSets>Accounting - Bank Statement - Delete</permissionSets>
+    <permissionSets>Accounting - Bank Statement - Edit</permissionSets>
+    <permissionSets>Accounting - Bank Statement - Import</permissionSets>
+    <permissionSets>Accounting - Bank Statement - Read Access</permissionSets>
+    <permissionSets>Accounting - Bank Statement - Reconcile</permissionSets>
+    <permissionSets>Accounting - Budget and Balance</permissionSets>
+    <permissionSets>Accounting - Budget and Balance - Edit</permissionSets>
+    <permissionSets>Accounting - Budget and Balance - Read Access</permissionSets>
+    <permissionSets>Accounting - Budget and Balance - Save</permissionSets>
+    <permissionSets>Accounting - Cash Entry</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Amend</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Cancel</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Discard</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Edit</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Post</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Post And Match</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Read Access</permissionSets>
+    <permissionSets>Accounting - Cash Entry - Save</permissionSets>
+    <permissionSets>Accounting - Cash Matching</permissionSets>
+    <permissionSets>Accounting - Cash Matching - Match</permissionSets>
+    <permissionSets>Accounting - Cash Matching - Undo</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Cancel Revaluation</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Clear History</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Create</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Discard</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Edit</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Post</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Read Access</permissionSets>
+    <permissionSets>Accounting - Dataviews</permissionSets>
+    <permissionSets>Accounting - Dataviews - Create</permissionSets>
+    <permissionSets>Accounting - Dataviews - Delete</permissionSets>
+    <permissionSets>Accounting - Dataviews - Edit</permissionSets>
+    <permissionSets>Accounting - Dataviews - Read</permissionSets>
+    <permissionSets>Accounting - Export Action Views</permissionSets>
+    <permissionSets>Accounting - Export Action Views - Export</permissionSets>
+    <permissionSets>Accounting - Import Action Views</permissionSets>
+    <permissionSets>Accounting - Import Action Views - Import</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates - Create</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates - Delete</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates - Edit</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates - Read</permissionSets>
+    <permissionSets>Accounting - Inquiry Templates - Save and Run</permissionSets>
+    <permissionSets>Accounting - Intercompany</permissionSets>
+    <permissionSets>Accounting - Intercompany Definition</permissionSets>
+    <permissionSets>Accounting - Intercompany Definition - Read Access</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer - Accept</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer - Create</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer - Process</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer - Read Access</permissionSets>
+    <permissionSets>Accounting - Intercompany Transfer - Reject</permissionSets>
+    <permissionSets>Accounting - Intersect Definition</permissionSets>
+    <permissionSets>Accounting - Intersect Definition - Read Access</permissionSets>
+    <permissionSets>Accounting - Mass Email</permissionSets>
+    <permissionSets>Accounting - Merge Account</permissionSets>
+    <permissionSets>Accounting - Merge Account - Run</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Amend</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Discard</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Edit</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Post</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Read Access</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Save</permissionSets>
+    <permissionSets>Accounting - Payable Invoice</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Amend</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Discard</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Edit</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - HoldRelease Payment</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Post</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Read Access</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Save</permissionSets>
+    <permissionSets>Accounting - Payment</permissionSets>
+    <permissionSets>Accounting - Payment - Cancel</permissionSets>
+    <permissionSets>Accounting - Payment - Clear History</permissionSets>
+    <permissionSets>Accounting - Payment - Confirm And Pay</permissionSets>
+    <permissionSets>Accounting - Payment - Discard</permissionSets>
+    <permissionSets>Accounting - Payment - Pay</permissionSets>
+    <permissionSets>Accounting - Payment - Read Access</permissionSets>
+    <permissionSets>Accounting - Payment - Remittances</permissionSets>
+    <permissionSets>Accounting - Payment - Retrieve</permissionSets>
+    <permissionSets>Accounting - Payment - Save</permissionSets>
+    <permissionSets>Accounting - Payment Selection</permissionSets>
+    <permissionSets>Accounting - Payment Template</permissionSets>
+    <permissionSets>Accounting - Payment Template - Delete</permissionSets>
+    <permissionSets>Accounting - Payment Template - Edit</permissionSets>
+    <permissionSets>Accounting - Payment Template - Read Access</permissionSets>
+    <permissionSets>Accounting - Payment Template - Save</permissionSets>
+    <permissionSets>Accounting - Profitability Reporting</permissionSets>
+    <permissionSets>Accounting - Profitability Reporting - SubAnalysis Mappings</permissionSets>
+    <permissionSets>Accounting - Profitability Reporting - Widget</permissionSets>
+    <permissionSets>Accounting Read Access</permissionSets>
+    <permissionSets>Accounting - Reporting Balance</permissionSets>
+    <permissionSets>Accounting - Reporting Balance - Read Access</permissionSets>
+    <permissionSets>Accounting - Reporting Balance Update</permissionSets>
+    <permissionSets>Accounting - Selection Definition</permissionSets>
+    <permissionSets>Accounting - Selection Definition - Delete</permissionSets>
+    <permissionSets>Accounting - Selection Definition - Edit</permissionSets>
+    <permissionSets>Accounting - Selection Definition - Read Access</permissionSets>
+    <permissionSets>Accounting - Selection Definition - Save</permissionSets>
+    <permissionSets>Accounting and Billing</permissionSets>
+    <permissionSets>Accounting and Billing API</permissionSets>
+    <permissionSets>Accounting and Billing - Account</permissionSets>
+    <permissionSets>Accounting and Billing - Account - Balance</permissionSets>
+    <permissionSets>Accounting and Billing - Account - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Account - Validate</permissionSets>
+    <permissionSets>Accounting and Billing - Accounting Currencies</permissionSets>
+    <permissionSets>Accounting and Billing - Accounting Currencies - Exchange Rate</permissionSets>
+    <permissionSets>Accounting and Billing - Accounting Currencies - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Allocations</permissionSets>
+    <permissionSets>Accounting and Billing - Allocations - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - As of Aging</permissionSets>
+    <permissionSets>Accounting and Billing - As of Aging - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Background Posting</permissionSets>
+    <permissionSets>Accounting and Billing - Background Posting - Listview</permissionSets>
+    <permissionSets>Accounting and Billing - Background Posting - Run Now</permissionSets>
+    <permissionSets>Accounting and Billing - Cache Management</permissionSets>
+    <permissionSets>Accounting and Billing - Company</permissionSets>
+    <permissionSets>Accounting and Billing - Company - Activate</permissionSets>
+    <permissionSets>Accounting and Billing - Company - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Company - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension1</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension1 - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension1 - Save and Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension2</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension2 - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension2 - Save and Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension3</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension3 - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension3 - Save and Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension4</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension4 - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Dimension4 - Save and Edit</permissionSets>
+    <permissionSets>Accounting and Billing - General Ledger Accounts</permissionSets>
+    <permissionSets>Accounting and Billing - General Ledger Accounts - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Help</permissionSets>
+    <permissionSets>Accounting and Billing - Income Schedule Definitions</permissionSets>
+    <permissionSets>Accounting and Billing - Income Schedule Definitions - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Integration Rule</permissionSets>
+    <permissionSets>Accounting and Billing - Integration Rule - Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Integration Rule - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Integration Rule - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Journal</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Amend</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Cancel</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Currency Override</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Discard</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Post</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Recurring</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Reverse</permissionSets>
+    <permissionSets>Accounting and Billing - Journal - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Opportunity</permissionSets>
+    <permissionSets>Accounting and Billing - Opportunity - Create Sales Invoice</permissionSets>
+    <permissionSets>Accounting and Billing - Print Formatter</permissionSets>
+    <permissionSets>Accounting and Billing - Print Formatter - Print Checks</permissionSets>
+    <permissionSets>Accounting and Billing - Print Formatter - Print Sales Credit Note</permissionSets>
+    <permissionSets>Accounting and Billing - Print Formatter - Print Sales Invoice</permissionSets>
+    <permissionSets>Accounting and Billing Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Run Integration Rule</permissionSets>
+    <permissionSets>Accounting and Billing - Run Integration Rule - Cash Entry</permissionSets>
+    <permissionSets>Accounting and Billing - Run Integration Rule - Sales Invoice</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Amend</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Discard</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Post</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Post and Match</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Print</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Credit Note - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Amend</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Credit Note</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Discard</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Income Schedule Discard</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Income Schedule Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Income Schedule Post</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Income Schedule Save</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Amend</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Discard</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Edit</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Post</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Print</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Payment Schedule Save</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Post</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Print</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Recurring Invoice Save</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Recurring Invoice Save and Post</permissionSets>
+    <permissionSets>Accounting and Billing - Sales Invoice - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Select Company</permissionSets>
+    <permissionSets>Accounting and Billing - Tax Code</permissionSets>
+    <permissionSets>Accounting and Billing - Tax Code - Avalara</permissionSets>
+    <permissionSets>Accounting and Billing - Tax Code - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Tax Code - Tax Rate</permissionSets>
+    <permissionSets>Accounting and Billing - Text Definitions</permissionSets>
+    <permissionSets>Accounting and Billing - Text Definitions - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Transactions</permissionSets>
+    <permissionSets>Accounting and Billing - Transactions - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - User Companies</permissionSets>
+    <permissionSets>Accounting and Billing - User Companies - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - XL</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Budget Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Budget Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Cash Entry Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Cash Entry Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Journal Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Journal Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Payable Credit Note Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Payable Credit Note Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Payable Invoice Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Payable Invoice Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Sales Credit Note Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Sales Credit Note Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Sales Invoice Report</permissionSets>
+    <permissionSets>Accounting and Billing - XL - Sales Invoices Document Input</permissionSets>
+    <permissionSets>Accounting and Billing - Year</permissionSets>
+    <permissionSets>Accounting and Billing - Year - Calculate Period</permissionSets>
+    <permissionSets>Accounting and Billing - Year - Create</permissionSets>
+    <permissionSets>Accounting and Billing - Year End</permissionSets>
+    <permissionSets>Accounting and Billing - Year - Read Access</permissionSets>
+    <permissionSets>Accounting - Balance Configuration</permissionSets>
+    <permissionSets>Accounting - Balance Update - Synchronization</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Post Group</permissionSets>
+    <permissionSets>Accounting - Currency Revaluation - Revaluation Summary</permissionSets>
+    <permissionSets>Accounting - Custom Forms</permissionSets>
+    <permissionSets>Accounting - Palette Sections</permissionSets>
+    <permissionSets>Accounting - Palette Sections - Create</permissionSets>
+    <permissionSets>Accounting - Palette Sections - Delete</permissionSets>
+    <permissionSets>Accounting - Palette Sections - Edit</permissionSets>
+    <permissionSets>Accounting - Palette Sections - Read</permissionSets>
+    <permissionSets>Accounting - Payable Credit Note - Post and Match</permissionSets>
+    <permissionSets>Accounting - Payable Invoice - Credit Note</permissionSets>
+    <permissionSets>Accounting - Related Content Panes</permissionSets>
+    <permissionSets>Accounting - Related Content Panes - Create</permissionSets>
+    <permissionSets>Accounting - Related Content Panes - Delete</permissionSets>
+    <permissionSets>Accounting - Related Content Panes - Edit</permissionSets>
+    <permissionSets>Accounting - Related Content Panes - Read</permissionSets>
+    <permissionSets>Accounting - Summarization Templates</permissionSets>
+    <permissionSets>Accounting - Summarization Templates - Create</permissionSets>
+    <permissionSets>Accounting - Summarization Templates - Delete</permissionSets>
+    <permissionSets>Accounting - Summarization Templates - Edit</permissionSets>
+    <permissionSets>Accounting - Summarization Templates - Read</permissionSets>
+    <permissionSets>Accounting - Summarization Templates - Save and Build</permissionSets>
+    <permissionSets>Accounting and Billing - Accounting Currencies - Apply Exchange Rates</permissionSets>
+    <permissionSets>Accounting and Billing - Allocations Multicompany</permissionSets>
+    <permissionSets>Accounting and Billing - Company - ChangeExchangeRateMode</permissionSets>
+    <permissionSets>Accounting and Billing - Company Ownership</permissionSets>
+    <permissionSets>Accounting and Billing - Company Ownership - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Company Ownership - Save</permissionSets>
+    <permissionSets>Accounting and Billing - Custom Forms</permissionSets>
+    <permissionSets>Accounting and Billing - Custom Forms - Create</permissionSets>
+    <permissionSets>Accounting and Billing - Custom Forms - Read</permissionSets>
+    <permissionSets>Accounting and Billing - Input Form Manager</permissionSets>
+    <permissionSets>Accounting and Billing - Transaction Reconciliation</permissionSets>
+    <permissionSets>Accounting and Billing - Transaction Reconciliation - Delete</permissionSets>
+    <permissionSets>Accounting and Billing - Transaction Reconciliation - Retrieve</permissionSets>
+    <permissionSets>Accounting and Billing - Transaction Reconciliation - Save and Edit</permissionSets>
+    <permissionSets>EBI - HCM Employee</permissionSets>
+    <permissionSets>EBI - HCM HR Administrator</permissionSets>
+    <permissionSets>EBI - HCM - Recruiter</permissionSets>
+    <permissionSets>Conga Grid Users</permissionSets>
+    <permissionSets>Conga Grid Visualforce Pages</permissionSets>
+    <permissionSets>EBI - PSA - P&amp;L Restricted Fields</permissionSets>
+    <permissionSets>EBI - Revenue - Manager Access</permissionSets>
+    <permissionSets>EBI - PSA - Admin View All Time</permissionSets>
+    <permissionSets>EBI - PSA - Admin View All Expense</permissionSets>
+    <permissionSets>EBI - FFA - Accounting Reader</permissionSets>
+    <permissionSets>Accounting and Billing - Alternate Chart of Accounts</permissionSets>
+    <permissionSets>Accounting and Billing - Alternate Chart of Accounts - Override on journal</permissionSets>
+    <permissionSets>Accounting and Billing - Alternate Chart of Accounts - Read Access</permissionSets>
+    <permissionSets>Accounting and Billing - Tax Code - Avalara Payable</permissionSets>
+    <permissionSets>EBI - FFA - 1099s</permissionSets>
+    <permissionSets>EBI - HD Service Request - Admin</permissionSets>
+    <permissionSets>EBI - HD Service Request - User</permissionSets>
+    <permissionSets>EBI - PSA - Resource Address</permissionSets>
+    <permissionSets>EBI - PSA - Edit Service Type Attributes</permissionSets>
+    <permissionSets>EBI - PSA - Edit Cost Rate (HR ONLY)</permissionSets>
+    <permissionSets>EBI - PSA - Cost Rates and Totals</permissionSets>
+    <permissionSets>EBI - PSA - Cost Totals</permissionSets>
+    <permissionSets>EBI - SCM - AP Vouchering</permissionSets>
+    <permissionSets>EBI - SCM Master Admin</permissionSets>
+    <permissionSets>EBI - SCM - Requestor and Approver</permissionSets>
+    <permissionSets>EBI - PSA - Locate Resources</permissionSets>
+    <permissionSets>EBI - App Team Task Tracker</permissionSets>
+    <permissionSets>EBI - App Team Task Tracker - Read</permissionSets>
+    <permissionSets>EBI - CRM - KARE + Key Fields</permissionSets>
+    <permissionSets>EBI - FAM</permissionSets>
+    <permissionSets>EBI - FFA - Lockbox</permissionSets>
+    <permissionSets>EBI - GetFeedback Survey - HR</permissionSets>
+    <permissionSets>EBI - GetFeedback Survey - Marketing</permissionSets>
+    <permissionSets>EBI - PSA - Skills Admin</permissionSets>
+    <permissionSets>EBI - PSA - Skills Read</permissionSets>
+    <permissionSets>EBI - PSA - Skills Supervisor</permissionSets>
+    <permissionSets>EBI - Lightning Switchable</permissionSets>
+    <permissionSets>EBI - Communities Admin</permissionSets>
+    <permissionSets>EBI - Customer Communities</permissionSets>
+    <permissionSets>EBI - HCM Manager</permissionSets>
+    <profiles>EBI Marketing - Custom</profiles>
+    <profiles>EBI FFA User</profiles>
+    <profiles>EBI Outside Consultant</profiles>
+    <profiles>EBI Platform User</profiles>
+    <profiles>EBI Restricted User</profiles>
+    <profiles>EBI Standard User - Custom</profiles>
+    <roles>EBI Internal</roles>
+    <roles>Restricted</roles>
+</DelegateGroup>
